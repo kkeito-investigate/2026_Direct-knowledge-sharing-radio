@@ -1,6 +1,6 @@
 name: セッション提案
 description: 火曜/木曜のナレッジ共有セッションを提案
-title: "[セッション] YYYY-MM-DD タイトル"
+title: "[Session] YYYY-MM-DD Title"
 labels: ["セッション"]
 body:
   - type: input

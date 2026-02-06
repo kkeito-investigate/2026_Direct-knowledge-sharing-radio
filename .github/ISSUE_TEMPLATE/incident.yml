@@ -1,6 +1,6 @@
 name: インシデント
 description: ミスの再発防止ログ
-title: "[インシデント] YYYY-MM-DD タイトル"
+title: "[Incident] YYYY-MM-DD Title"
 labels: ["インシデント"]
 body:
   - type: input
