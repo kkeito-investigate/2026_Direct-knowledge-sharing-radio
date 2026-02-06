@@ -1,0 +1,18 @@
+id: 2026-02-10_multi-agent-parallel-dev
+title: "マルチエージェントによる並行開発と資産管理"
+date: 2026-02-10
+slot: Tue
+theme: Basics
+status: draft
+owner: ""
+audience: "executives"
+objective: "マルチエージェントが並行で開発・資産管理を進める全体像を理解してもらう"
+key_points:
+  - "並行開発の概念と役割分担"
+  - "成果物の集約と品質担保の流れ"
+  - "GitHubを資産管理の中枢にする理由"
+materials:
+  slides: "slides.md"
+  script: "script.md"
+  references: "references.md"
+notes: ""

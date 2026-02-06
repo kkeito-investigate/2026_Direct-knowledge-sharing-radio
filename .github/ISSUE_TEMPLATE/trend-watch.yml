@@ -1,0 +1,38 @@
+name: Trend Watch
+description: Capture a trend or news item for possible Thursday use
+title: "[Trend] YYYY-MM-DD Short Title"
+labels: ["trend"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      placeholder: "Publication / Company"
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date (YYYY-MM-DD)
+      placeholder: "2026-02-05"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: 2-4 sentences
+    validations:
+      required: true
+  - type: textarea
+    id: why_it_matters
+    attributes:
+      label: Why it matters
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: URL
+    validations:
+      required: false

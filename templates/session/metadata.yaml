@@ -1,0 +1,16 @@
+id: YYYY-MM-DD_topic
+title: ""
+date: YYYY-MM-DD
+slot: Tue|Thu
+theme: Basics|Tips|Trends|Tools
+status: draft
+owner: ""
+audience: "executives"
+objective: ""
+key_points:
+  - ""
+materials:
+  slides: "slides.md"
+  script: "script.md"
+  references: "references.md"
+notes: ""

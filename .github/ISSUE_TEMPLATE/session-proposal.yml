@@ -1,0 +1,54 @@
+name: Session Proposal
+description: Create a session proposal for Tue/Thu knowledge sharing
+title: "[Session] YYYY-MM-DD Topic"
+labels: ["session"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date (YYYY-MM-DD)
+      placeholder: "2026-02-10"
+    validations:
+      required: true
+  - type: dropdown
+    id: slot
+    attributes:
+      label: Slot
+      options:
+        - Tue
+        - Thu
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - Basics
+        - Tips
+        - Trends
+        - Tools
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should the audience understand or decide?
+    validations:
+      required: true
+  - type: textarea
+    id: key_points
+    attributes:
+      label: Key Points
+      description: 3-5 bullets
+      placeholder: "- ..."
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Needed Assets
+      description: Slides, demo, screenshots, data, etc.
+    validations:
+      required: false
