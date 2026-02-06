@@ -12,6 +12,9 @@
 GitHub Projects（v2）を準備・共有・振り返りの中心として運用します。
 詳細は `docs/PROJECTS.md` を参照。
 
+## 運用ガイド
+`docs/OPERATIONS.md` を参照。
+
 ## リポジトリ構成
 - `sessions/`: セッションごとの資料（構成、スライド草案、台本、参考）
 - `templates/`: 再利用テンプレート
