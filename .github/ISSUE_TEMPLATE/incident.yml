@@ -1,0 +1,47 @@
+name: Incident / Mistake Log
+description: Record a mistake to prevent repeats
+labels: ["incident"]
+title: "[Incident] YYYY-MM-DD Short Title"
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date (YYYY-MM-DD)
+      placeholder: "2026-02-06"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, in 2-3 sentences
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: What went wrong or slowed down
+    validations:
+      required: true
+  - type: textarea
+    id: root_cause
+    attributes:
+      label: Root Cause
+      description: Why it happened
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Fix / Prevention
+      description: What we changed to avoid repetition
+    validations:
+      required: true
+  - type: textarea
+    id: followups
+    attributes:
+      label: Follow-ups
+      description: Any follow-up tasks
+    validations:
+      required: false

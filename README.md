@@ -18,6 +18,7 @@ See `docs/PROJECTS.md` for the recommended fields, views, and automation.
 - `assets/`: shared images or snippets
 - `runs/`: agent outputs and intermediate drafts
 - `docs/`: operating rules and guidance
+- `incidents/`: postmortems for mistakes to prevent repeats
 
 ## Quick Start
 1. Create a new issue using the "Session Proposal" template.
@@ -29,3 +30,4 @@ See `docs/PROJECTS.md` for the recommended fields, views, and automation.
 - Session folder name: `YYYY-MM-DD_topic`
 - All sources go into `references.md` (per session)
 - Large files stay outside GitHub; store a link + hash
+ - Log mistakes in `docs/INCIDENTS.md` and `incidents/`
