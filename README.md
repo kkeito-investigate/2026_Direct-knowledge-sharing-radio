@@ -26,6 +26,9 @@ GitHub Projects（v2）を準備・共有・振り返りの中心として運用
 3. 確定したら `sessions/tue/` または `sessions/thu/` にフォルダ作成
 4. `templates/session/` を使って作成開始
 
+## スラッシュコマンド
+`docs/COMMANDS.md` を参照
+
 ## ルール
 - セッションフォルダ名: `YYYY-MM-DD_topic`
 - 出典は必ず `references.md` に集約
