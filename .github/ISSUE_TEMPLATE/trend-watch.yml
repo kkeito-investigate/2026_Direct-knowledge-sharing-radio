@@ -1,6 +1,6 @@
 name: トレンドメモ
 description: 木曜で取り上げる候補のトレンド/ニュース
-title: "[トレンド] YYYY-MM-DD タイトル"
+title: "[Trend] YYYY-MM-DD Title"
 labels: ["トレンド"]
 body:
   - type: input

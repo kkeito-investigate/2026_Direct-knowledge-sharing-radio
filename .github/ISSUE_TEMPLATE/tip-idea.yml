@@ -1,6 +1,6 @@
 name: ティップスメモ
 description: 実務で使えるAIの小ネタ
-title: "[ティップス] タイトル"
+title: "[Tip] Title"
 labels: ["ティップス"]
 body:
   - type: textarea
