@@ -1,4 +1,4 @@
-# Runs
+# 実行ログ
 
-Agent outputs, intermediate drafts, and working files.
-Do not treat this as final content. Promote only finalized items to `sessions/`.
+エージェントの中間生成物や作業ログを置きます。
+最終版は `sessions/` に昇格してください。

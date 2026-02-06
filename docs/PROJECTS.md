@@ -1,50 +1,49 @@
-# GitHub Projects Workspace (Best Practices)
+# GitHub Projects ワークスペース運用
 
-This repo uses GitHub Projects (v2) as the workspace. The goal is to keep all preparation visible, searchable, and easy for agents to pick up.
+このリポジトリでは GitHub Projects（v2）をワークスペースとして使い、準備・可視化・再利用を一体で回します。
 
-## Recommended Fields
-- Phase: Backlog, In Prep, Ready, Presented, Archived
-- Date (YYYY-MM-DD)
-- Slot: Tue, Thu
-- Theme: Basics, Tips, Trends, Tools
-- Effort: S, M, L
-- Type: Session, Tip, Trend, Incident
-- Source: Internal, External
-- Slide Link
-- Recording Link
+## 推奨フィールド
+- フェーズ: バックログ, 準備中, 準備完了, 実施済み, アーカイブ
+- 日付（YYYY-MM-DD）
+- 枠: 火曜, 木曜
+- テーマ: 基礎, ティップス, トレンド, ツール
+- 工数: S, M, L
+- 種別: セッション, ティップス, トレンド, インシデント
+- 情報源: 社内, 社外
+- スライドURL
+- 録画URL
 
-## Recommended Views
-- This Week (Tue): filter Slot = Tue and Date in current week
-- This Week (Thu): filter Slot = Thu and Date in current week
-- Backlog: Phase = Backlog
-- In Prep: Phase = In Prep
-- Ready: Phase = Ready
-- History: Phase = Presented or Archived
-- Incidents: Type = Incident
+## 推奨ビュー
+- 今週（火）: 枠 = 火曜 かつ 日付 = 今週
+- 今週（木）: 枠 = 木曜 かつ 日付 = 今週
+- バックログ: フェーズ = バックログ
+- 準備中: フェーズ = 準備中
+- 準備完了: フェーズ = 準備完了
+- 履歴: フェーズ = 実施済み or アーカイブ
+- インシデント: 種別 = インシデント
 
-## Manual UI Setup (once)
-1. Create a Board view grouped by `Phase`.
-2. Hide the default `Status` field from the view.
-3. Add a Table view with columns: Title, Phase, Date, Slot, Theme, Type, Effort.
+## 自動化ルール
+- このリポジトリの Issue/PR を自動で追加
+- 追加時にフェーズ = バックログ
+- Issue クローズ時にフェーズ = アーカイブ
 
-## Automation Rules
-- Auto-add new issues and PRs from this repo to the Project
-- Set Phase = Backlog on item added
-- When issue is closed, set Phase = Archived
+## 進め方
+1. Issue テンプレート「セッション提案」で起票
+2. 日付/枠/テーマ/種別を入力
+3. 作成開始時にフェーズを準備中
+4. 完成時にフェーズを準備完了
+5. 実施後にフェーズを実施済み
 
-## Workflow
-1. Create an issue with the "Session Proposal" form.
-2. Triage and assign Date/Slot/Theme/Type.
-3. Move Phase to In Prep when drafting starts.
-4. Move Phase to Ready when materials are finalized.
-5. Move Phase to Presented after the session.
+## メモ
+- 1セッション = 1 Issue
+- デフォルトの `Status` はビューから非表示にし、`フェーズ` を看板の列に使う
+- ラベルで素早く検索（例）
+  - セッション
+  - ティップス
+  - トレンド
+  - ツール
+  - インシデント
 
-## Notes
-- Keep one issue per session.
-- Use the `Phase` field for Kanban grouping (leave default `Status` as-is).
-- Use labels for quick search (examples below):
-  - session
-  - tip
-  - trend
-  - tool
-  - incident
+## 手動セットアップ（1回だけ）
+1. Board ビューを作成し、`フェーズ` でグルーピング
+2. Table ビューを作成し、列を `タイトル/フェーズ/日付/枠/テーマ/種別/工数` にする

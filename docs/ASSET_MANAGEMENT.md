@@ -1,25 +1,25 @@
-# Asset Management Rules
+# 資産管理ルール
 
-## Foldering
-- Per session: `sessions/tue/` or `sessions/thu/`
-- Per session folder name: `YYYY-MM-DD_topic`
+## フォルダ方針
+- セッションは `sessions/tue/` または `sessions/thu/` に作成
+- フォルダ名は `YYYY-MM-DD_topic`
 
-## Minimum Files Per Session
+## セッション最低限ファイル
 - `metadata.yaml`
 - `outline.md`
 - `slides.md`
 - `script.md`
 - `references.md`
 
-## Source Handling
-- All sources go into `references.md`
-- For news or trends, include the date and the access date
+## 出典ルール
+- 出典は必ず `references.md` に集約
+- トレンド/ニュースは発生日と参照日を記載
 
-## Large Files
-- Do not store large media files in GitHub
-- Keep the external URL + hash (or checksum) in `references.md` or `metadata.yaml`
+## 大きいファイル
+- GitHub には置かない
+- 外部URLとハッシュ（またはチェックサム）を記録
 
-## Versioning
-- Drafts live in `runs/`
-- Finalized content lives in `sessions/`
-- If you update after delivery, add a note in `metadata.yaml`
+## バージョン管理
+- 下書きは `runs/` に置く
+- 最終版は `sessions/` に昇格
+- 実施後の更新は `metadata.yaml` に追記

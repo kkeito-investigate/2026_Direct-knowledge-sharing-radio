@@ -1,21 +1,21 @@
-# Incident Log (Process Memory)
+# インシデントログ（再発防止）
 
-We keep an explicit log of mistakes so the process improves over time.
+ミスや手戻りを明示的に残し、同じ失敗を繰り返さないための運用です。
 
-## When to write an incident
-- A repeated mistake happens
-- A setup step fails due to unclear instructions
-- The assistant runs into a predictable tool or auth issue
+## いつ書くか
+- 同じミスが繰り返された
+- 手順が不明確で詰まった
+- 権限/認証/ツール起因で停止した
 
-## Where to log
-1. Create a GitHub issue using the "Incident / Mistake Log" template.
-2. Add a short postmortem file under `incidents/` using `templates/incident.md`.
+## どこに書くか
+1. Issue テンプレート「インシデント」で起票
+2. `incidents/` に短いポストモーテムを作成
 
-## Minimum content
-- What happened
-- Impact
-- Root cause
-- Fix / prevention
+## 最低限の内容
+- 何が起きたか
+- 影響
+- 原因
+- 再発防止策
 
-## Example file name
+## 例
 `2026-02-06_auth-refresh-timeout.md`

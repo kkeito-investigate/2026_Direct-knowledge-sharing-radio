@@ -1,18 +1,18 @@
-# Outline
+# 構成
 
-## 1. Opening
-- Objective
-- Why now
+## 1. オープニング
+- 今日の目的
+- なぜ今か
 
-## 2. Core Content
-- Point 1
-- Point 2
-- Point 3
+## 2. 本編
+- ポイント1
+- ポイント2
+- ポイント3
 
-## 3. Demo or Example
-- Short walkthrough
+## 3. デモ or 例
+- 簡単な流れ
 
-## 4. Takeaways
-- 3 bullet summary
+## 4. まとめ
+- 要点3つ
 
 ## 5. Q&A

@@ -1,11 +1,11 @@
-# Script
+# 台本
 
-## Opening (2-3 min)
+## オープニング（2-3分）
 
-## Main Content (10-15 min)
+## 本編（10-15分）
 
-## Demo (5 min)
+## デモ（5分）
 
-## Takeaways (2 min)
+## まとめ（2分）
 
 ## Q&A

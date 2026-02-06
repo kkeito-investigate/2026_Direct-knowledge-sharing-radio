@@ -1,6 +1,6 @@
-# Incidents
+# インシデント
 
-This folder stores short postmortems for mistakes or process breakdowns.
-Create one file per incident: `YYYY-MM-DD_short-title.md`.
+ミスのポストモーテムを保管します。
+1件1ファイルで `YYYY-MM-DD_短いタイトル.md` を作成。
 
-Use the template in `templates/incident.md`.
+テンプレートは `templates/incident.md` を使用。

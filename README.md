@@ -1,33 +1,33 @@
-# 2026 Direct Knowledge Sharing (AI)
+# 2026 生成AIナレッジ共有
 
-Weekly AI knowledge sharing for executives.
+役員向けの週次AIナレッジ共有の資産管理リポジトリ。
 
-## Schedule
-- Tuesdays: AI development basics ("iroha")
-- Thursdays: tips and general trends
+## スケジュール
+- 火曜: AI開発の基礎（イロハ）
+- 木曜: Tips と一般トレンド
 
-First session: 2026-02-10 (Tue)
+初回セッション: 2026-02-10（火）
 
-## How We Manage Work (GitHub Projects)
-We use GitHub Projects (v2) as the single workspace for ideas, preparation, and delivery.
-See `docs/PROJECTS.md` for the recommended fields, views, and automation.
+## ワークスペース（GitHub Projects）
+GitHub Projects（v2）を準備・共有・振り返りの中心として運用します。
+詳細は `docs/PROJECTS.md` を参照。
 
-## Repo Structure (Assets)
-- `sessions/`: per-session materials (outline, slides draft, script, references)
-- `templates/`: reusable templates
-- `assets/`: shared images or snippets
-- `runs/`: agent outputs and intermediate drafts
-- `docs/`: operating rules and guidance
-- `incidents/`: postmortems for mistakes to prevent repeats
+## リポジトリ構成
+- `sessions/`: セッションごとの資料（構成、スライド草案、台本、参考）
+- `templates/`: 再利用テンプレート
+- `assets/`: 共有画像やコード断片
+- `runs/`: エージェントの中間生成物
+- `docs/`: 運用ルール
+- `incidents/`: ミスの再発防止ログ
 
-## Quick Start
-1. Create a new issue using the "Session Proposal" template.
-2. Manage the issue in GitHub Projects.
-3. When confirmed, create a session folder under `sessions/tue/` or `sessions/thu/`.
-4. Use `templates/session/` to start drafting materials.
+## 使い方（最短導線）
+1. Issue テンプレート「セッション提案」で起票
+2. GitHub Projects で管理
+3. 確定したら `sessions/tue/` または `sessions/thu/` にフォルダ作成
+4. `templates/session/` を使って作成開始
 
-## Conventions
-- Session folder name: `YYYY-MM-DD_topic`
-- All sources go into `references.md` (per session)
-- Large files stay outside GitHub; store a link + hash
- - Log mistakes in `docs/INCIDENTS.md` and `incidents/`
+## ルール
+- セッションフォルダ名: `YYYY-MM-DD_topic`
+- 出典は必ず `references.md` に集約
+- 大きいファイルは外部保存し、URL とハッシュのみ記載
+- ミスは `docs/INCIDENTS.md` と `incidents/` に記録

@@ -1,16 +1,16 @@
-# Incident: <short title>
+# インシデント: <短いタイトル>
 
-- Date: YYYY-MM-DD
-- Owner: 
-- Related issue: 
+- 日付: YYYY-MM-DD
+- 担当: 
+- 関連Issue: 
 
-## Summary
+## 概要
 
-## Impact
+## 影響
 
-## Root Cause
+## 原因
 
-## Fix / Prevention
+## 再発防止
 
-## Follow-ups
+## 追加対応
 - [ ] 

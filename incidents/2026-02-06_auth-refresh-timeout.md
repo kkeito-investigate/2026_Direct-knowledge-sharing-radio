@@ -1,21 +1,21 @@
-# Incident: gh auth refresh timed out
+# インシデント: gh auth refresh がタイムアウト
 
-- Date: 2026-02-06
-- Owner: assistant
-- Related issue: (create if needed)
+- 日付: 2026-02-06
+- 担当: assistant
+- 関連Issue: （必要なら作成）
 
-## Summary
-`gh auth refresh` timed out multiple times because device-code verification required user action outside the CLI, and the command was retried without an interactive handoff.
+## 概要
+`gh auth refresh` が複数回タイムアウトし、デバイス認証の手動操作が必要だった。
 
-## Impact
-Project setup was delayed and required manual intervention from the user.
+## 影響
+プロジェクト設定の作業が遅延した。
 
-## Root Cause
-The process assumed the CLI refresh could be completed without a clear handoff step, despite the device flow being non-interactive in this environment.
+## 原因
+デバイスコード認証の手動ステップを明示せず、CLI 再実行を繰り返した。
 
-## Fix / Prevention
-- In future, ask the user to run the refresh locally once and confirm completion before retrying.
-- Document the expected device-code flow in the incident log and operating guidance.
+## 再発防止
+- 以後はユーザーにローカルで1回実行してもらい、完了確認後に再開する。
+- 認証フローを運用ガイドに残す。
 
-## Follow-ups
-- [ ] Keep a short runbook entry for auth refresh in `docs/PROJECTS.md` if it becomes common
+## 追加対応
+- [ ] `docs/PROJECTS.md` に認証の注意点を追記（必要なら）

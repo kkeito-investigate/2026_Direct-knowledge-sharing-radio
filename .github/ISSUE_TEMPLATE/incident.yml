@@ -1,47 +1,47 @@
-name: Incident / Mistake Log
-description: Record a mistake to prevent repeats
-labels: ["incident"]
-title: "[Incident] YYYY-MM-DD Short Title"
+name: インシデント
+description: ミスの再発防止ログ
+title: "[インシデント] YYYY-MM-DD タイトル"
+labels: ["インシデント"]
 body:
   - type: input
     id: date
     attributes:
-      label: Date (YYYY-MM-DD)
+      label: 日付（YYYY-MM-DD）
       placeholder: "2026-02-06"
     validations:
       required: true
   - type: textarea
     id: summary
     attributes:
-      label: Summary
-      description: What happened, in 2-3 sentences
+      label: 概要
+      description: 2-3文で何が起きたか
     validations:
       required: true
   - type: textarea
     id: impact
     attributes:
-      label: Impact
-      description: What went wrong or slowed down
+      label: 影響
+      description: 何が問題になったか
     validations:
       required: true
   - type: textarea
     id: root_cause
     attributes:
-      label: Root Cause
-      description: Why it happened
+      label: 原因
+      description: なぜ起きたか
     validations:
       required: true
   - type: textarea
     id: fix
     attributes:
-      label: Fix / Prevention
-      description: What we changed to avoid repetition
+      label: 再発防止
+      description: どう防ぐか
     validations:
       required: true
   - type: textarea
     id: followups
     attributes:
-      label: Follow-ups
-      description: Any follow-up tasks
+      label: 追加対応
+      description: 追対応があれば
     validations:
       required: false

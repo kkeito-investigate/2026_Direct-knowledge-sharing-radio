@@ -1,16 +1,16 @@
 id: YYYY-MM-DD_topic
-title: ""
-date: YYYY-MM-DD
-slot: Tue|Thu
-theme: Basics|Tips|Trends|Tools
-status: draft
-owner: ""
-audience: "executives"
-objective: ""
-key_points:
+タイトル: ""
+日付: YYYY-MM-DD
+枠: 火曜|木曜
+テーマ: 基礎|ティップス|トレンド|ツール
+状態: 下書き
+担当: ""
+対象: "役員"
+目的: ""
+要点:
   - ""
-materials:
-  slides: "slides.md"
-  script: "script.md"
-  references: "references.md"
-notes: ""
+素材:
+  スライド: "slides.md"
+  台本: "script.md"
+  参考: "references.md"
+メモ: ""

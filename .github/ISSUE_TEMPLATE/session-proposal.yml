@@ -1,54 +1,54 @@
-name: Session Proposal
-description: Create a session proposal for Tue/Thu knowledge sharing
-title: "[Session] YYYY-MM-DD Topic"
-labels: ["session"]
+name: セッション提案
+description: 火曜/木曜のナレッジ共有セッションを提案
+title: "[セッション] YYYY-MM-DD タイトル"
+labels: ["セッション"]
 body:
   - type: input
     id: date
     attributes:
-      label: Date (YYYY-MM-DD)
+      label: 日付（YYYY-MM-DD）
       placeholder: "2026-02-10"
     validations:
       required: true
   - type: dropdown
     id: slot
     attributes:
-      label: Slot
+      label: 枠
       options:
-        - Tue
-        - Thu
+        - 火曜
+        - 木曜
     validations:
       required: true
   - type: dropdown
     id: theme
     attributes:
-      label: Theme
+      label: テーマ
       options:
-        - Basics
-        - Tips
-        - Trends
-        - Tools
+        - 基礎
+        - ティップス
+        - トレンド
+        - ツール
     validations:
       required: true
   - type: textarea
     id: objective
     attributes:
-      label: Objective
-      description: What should the audience understand or decide?
+      label: 目的
+      description: 参加者が理解/意思決定できる状態
     validations:
       required: true
   - type: textarea
     id: key_points
     attributes:
-      label: Key Points
-      description: 3-5 bullets
+      label: 要点
+      description: 3-5個
       placeholder: "- ..."
     validations:
       required: true
   - type: textarea
     id: assets
     attributes:
-      label: Needed Assets
-      description: Slides, demo, screenshots, data, etc.
+      label: 必要素材
+      description: スライド、デモ、スクショ、データなど
     validations:
       required: false

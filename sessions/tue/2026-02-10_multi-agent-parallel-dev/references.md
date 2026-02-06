@@ -1,3 +1,3 @@
-# References
+# 参考
 
-- Title | Source | Date | Accessed | URL
+- タイトル | 出典 | 日付 | 参照日 | URL

@@ -1,25 +1,25 @@
-name: Tip Idea
-description: Capture a practical AI tip
-title: "[Tip] Short Title"
-labels: ["tip"]
+name: ティップスメモ
+description: 実務で使えるAIの小ネタ
+title: "[ティップス] タイトル"
+labels: ["ティップス"]
 body:
   - type: textarea
     id: tip
     attributes:
-      label: Tip
-      description: Describe the tip in 2-3 sentences
+      label: ティップス
+      description: 2-3文で説明
     validations:
       required: true
   - type: textarea
     id: use_case
     attributes:
-      label: Use Case
-      description: Where it applies
+      label: ユースケース
+      description: どこで使うか
     validations:
       required: true
   - type: input
     id: link
     attributes:
-      label: URL (optional)
+      label: URL（任意）
     validations:
       required: false

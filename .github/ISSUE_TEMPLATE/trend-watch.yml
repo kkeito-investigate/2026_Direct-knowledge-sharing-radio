@@ -1,33 +1,33 @@
-name: Trend Watch
-description: Capture a trend or news item for possible Thursday use
-title: "[Trend] YYYY-MM-DD Short Title"
-labels: ["trend"]
+name: トレンドメモ
+description: 木曜で取り上げる候補のトレンド/ニュース
+title: "[トレンド] YYYY-MM-DD タイトル"
+labels: ["トレンド"]
 body:
   - type: input
     id: source
     attributes:
-      label: Source
-      placeholder: "Publication / Company"
+      label: 出典
+      placeholder: "媒体 / 企業"
     validations:
       required: true
   - type: input
     id: date
     attributes:
-      label: Date (YYYY-MM-DD)
+      label: 日付（YYYY-MM-DD）
       placeholder: "2026-02-05"
     validations:
       required: true
   - type: textarea
     id: summary
     attributes:
-      label: Summary
-      description: 2-4 sentences
+      label: 概要
+      description: 2-4文
     validations:
       required: true
   - type: textarea
     id: why_it_matters
     attributes:
-      label: Why it matters
+      label: 重要性
     validations:
       required: true
   - type: input

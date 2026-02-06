@@ -1,19 +1,19 @@
-# Slides Draft
+# スライド草案
 
-## Slide 1: Title
-- Title
-- Subtitle
+## Slide 1: タイトル
+- タイトル
+- サブタイトル
 
-## Slide 2: Agenda
-- 3-5 bullets
+## Slide 2: 今日の流れ
+- 3-5個
 
-## Slide 3-5: Main Content
-- Key points
+## Slide 3-5: 本編
+- 主要ポイント
 
-## Slide 6: Demo
-- Screenshot or diagram
+## Slide 6: デモ
+- スクショ or 図
 
-## Slide 7: Summary
-- 3 takeaways
+## Slide 7: まとめ
+- 3つの要点
 
 ## Slide 8: Q&A

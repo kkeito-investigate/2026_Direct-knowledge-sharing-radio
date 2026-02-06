@@ -1,4 +1,4 @@
-# Assets
+# 共有アセット
 
-Shared images, diagrams, and reusable snippets.
-Avoid large binaries; store links + hashes instead.
+共通で使う画像や図、コード断片を置きます。
+大きいバイナリは置かず、URL+ハッシュを記録します。
