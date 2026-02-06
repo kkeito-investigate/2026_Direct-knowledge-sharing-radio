@@ -23,7 +23,7 @@
 ## GitHub Projects の使い方
 - Projects をワークスペースとして使う
 - `フェーズ` を看板の列にする
-- `枠` を 火曜/木曜/その他 でビュー分け
+- `枠` を 1_Tue/2_Thu/3_Others でビュー分け
 - Issue 1つ = セッション/トピック1つ
 
 詳細は `docs/PROJECTS.md` を参照。

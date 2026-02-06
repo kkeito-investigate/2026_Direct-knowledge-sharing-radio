@@ -15,8 +15,9 @@ body:
     attributes:
       label: 枠
       options:
-        - 火曜
-        - 木曜
+        - 1_Tue
+        - 2_Thu
+        - 3_Others
     validations:
       required: true
   - type: dropdown
